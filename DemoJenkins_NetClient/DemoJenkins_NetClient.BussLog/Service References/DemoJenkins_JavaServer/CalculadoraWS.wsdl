@@ -5,31 +5,31 @@
       <xsd:import schemaLocation="http://localhost:8080/DemoJenkins_JavaServer/CalculadoraWS?xsd=1" namespace="http://webservice.evolucion.upc.edu.pe/" />
     </xsd:schema>
   </types>
-  <message name="Suma">
-    <part name="parameters" element="tns:Suma" />
-  </message>
-  <message name="SumaResponse">
-    <part name="parameters" element="tns:SumaResponse" />
-  </message>
   <message name="Resta">
     <part name="parameters" element="tns:Resta" />
   </message>
   <message name="RestaResponse">
     <part name="parameters" element="tns:RestaResponse" />
   </message>
+  <message name="Suma">
+    <part name="parameters" element="tns:Suma" />
+  </message>
+  <message name="SumaResponse">
+    <part name="parameters" element="tns:SumaResponse" />
+  </message>
   <portType name="CalculadoraWS">
-    <operation name="Suma">
-      <input wsam:Action="http://webservice.evolucion.upc.edu.pe/CalculadoraWS/SumaRequest" message="tns:Suma" />
-      <output wsam:Action="http://webservice.evolucion.upc.edu.pe/CalculadoraWS/SumaResponse" message="tns:SumaResponse" />
-    </operation>
     <operation name="Resta">
       <input wsam:Action="http://webservice.evolucion.upc.edu.pe/CalculadoraWS/RestaRequest" message="tns:Resta" />
       <output wsam:Action="http://webservice.evolucion.upc.edu.pe/CalculadoraWS/RestaResponse" message="tns:RestaResponse" />
     </operation>
+    <operation name="Suma">
+      <input wsam:Action="http://webservice.evolucion.upc.edu.pe/CalculadoraWS/SumaRequest" message="tns:Suma" />
+      <output wsam:Action="http://webservice.evolucion.upc.edu.pe/CalculadoraWS/SumaResponse" message="tns:SumaResponse" />
+    </operation>
   </portType>
   <binding name="CalculadoraWSPortBinding" type="tns:CalculadoraWS">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <operation name="Suma">
+    <operation name="Resta">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -38,7 +38,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="Resta">
+    <operation name="Suma">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

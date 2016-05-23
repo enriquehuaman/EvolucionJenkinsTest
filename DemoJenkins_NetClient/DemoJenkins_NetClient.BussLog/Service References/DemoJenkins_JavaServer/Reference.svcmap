@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e91f262b-2a6b-47a7-88d9-64510c35f940" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ebba541e-0fe9-421f-926b-7b65ee8654ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,8 +22,8 @@
     <MetadataSource Address="http://localhost:8080/DemoJenkins_JavaServer/CalculadoraWS?WSDL" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="CalculadoraWS.xsd" MetadataType="Schema" ID="ec821685-5d42-4f47-91c7-082470fd9883" SourceId="1" SourceUrl="http://localhost:8080/DemoJenkins_JavaServer/CalculadoraWS?xsd=1" />
-    <MetadataFile FileName="CalculadoraWS.wsdl" MetadataType="Wsdl" ID="f01b0afc-4d6f-48f3-befc-b40d0fbdb89d" SourceId="1" SourceUrl="http://localhost:8080/DemoJenkins_JavaServer/CalculadoraWS?WSDL" />
+    <MetadataFile FileName="CalculadoraWS.xsd" MetadataType="Schema" ID="e879c3af-bc26-4222-bd78-5bfa6754cde8" SourceId="1" SourceUrl="http://localhost:8080/DemoJenkins_JavaServer/CalculadoraWS?xsd=1" />
+    <MetadataFile FileName="CalculadoraWS.wsdl" MetadataType="Wsdl" ID="d2ac9295-9e2b-4506-979c-263af4777604" SourceId="1" SourceUrl="http://localhost:8080/DemoJenkins_JavaServer/CalculadoraWS?WSDL" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

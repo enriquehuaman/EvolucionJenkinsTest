@@ -7,3 +7,5 @@ D:\Evolucion\DemoJenkins\DemoJenkins_NetClient\DemoJenkins_NetClient\obj\Debug\D
 D:\Evolucion\DemoJenkins\DemoJenkins_NetClient\DemoJenkins_NetClient\obj\Debug\DemoJenkins_NetClient.csproj.GenerateResource.Cache
 D:\Evolucion\DemoJenkins\DemoJenkins_NetClient\DemoJenkins_NetClient\obj\Debug\DemoJenkins_NetClient.exe
 D:\Evolucion\DemoJenkins\DemoJenkins_NetClient\DemoJenkins_NetClient\obj\Debug\DemoJenkins_NetClient.pdb
+D:\Evolucion\DemoJenkins\DemoJenkins_NetClient\DemoJenkins_NetClient\bin\Debug\DemoJenkins_NetClient.BussLog.dll
+D:\Evolucion\DemoJenkins\DemoJenkins_NetClient\DemoJenkins_NetClient\bin\Debug\DemoJenkins_NetClient.BussLog.pdb
