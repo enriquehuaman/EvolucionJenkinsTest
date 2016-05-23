@@ -19,8 +19,12 @@ namespace DemoJenkins_NetClient
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DemoJenkins_JavaServer.CalculadoraWSClient ws = new DemoJenkins_JavaServer.CalculadoraWSClient();
+            
             int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
+            int b = Convert.ToInt32(textBox3.Text);
+            int suma = ws.Suma(a, b);
+            textBox2.Text = suma.ToString();
         }
     }
 }
