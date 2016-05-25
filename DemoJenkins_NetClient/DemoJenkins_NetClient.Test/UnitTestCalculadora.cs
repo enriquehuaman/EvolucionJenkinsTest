@@ -12,5 +12,11 @@ namespace DemoJenkins_NetClient.Test
         {
             Assert.AreEqual(6, CalculadoraFacade.Suma(2, 4));
         }
+
+        [TestMethod]
+        public void TestResta()
+        {
+            Assert.AreEqual(6, CalculadoraFacade.Resta(10, 4));
+        }
     }
 }
